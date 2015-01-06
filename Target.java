@@ -1,3 +1,5 @@
+package Target;
+
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 import java.util.List;
 
@@ -53,7 +55,7 @@ public class Target extends Actor
             world.addObject(new YellowBalloon(), Greenfoot.getRandomNumber(getWorld().getWidth()-80), getWorld().getHeight()) ;
          /*
          *      - Red balloons */
-            if(Greenfoot.getRandomNumber(300)==0)
+            if(Greenfoot.getRandomNumber(30)==0)
             world.addObject(new RedBalloon(), Greenfoot.getRandomNumber(getWorld().getWidth()-80), getWorld().getHeight()) ;
          /*
          *      

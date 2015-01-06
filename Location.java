@@ -1,3 +1,5 @@
+package Target;
+
 /**
  * A Location in the world. This class is often used with the SmoothMover class (or 
  * similar classes). It provides more precise location (and with this: smoother movement)

@@ -1,3 +1,5 @@
+package Target;
+
 import greenfoot.Greenfoot;
 
 /**
